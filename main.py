@@ -214,22 +214,3 @@ def exercise_15():
     print(f"Total revenue: {revenue:.2f} euros")
     print(f"Total cost: {total_cost:.2f} euros")
     print(f"Profit: {profit:.2f} euros")
-
-
-EXERCISES = {
-    "1": exercise_1,
-    "2": exercise_2,
-    "3": exercise_3,
-    "4": exercise_4,
-    "5": exercise_5,
-    "6": exercise_6,
-    "7": exercise_7,
-    "8": exercise_8,
-    "9": exercise_9,
-    "10": exercise_10,
-    "11": exercise_11,
-    "12": exercise_12,
-    "13": exercise_13,
-    "14": exercise_14,
-    "15": exercise_15,
-}
