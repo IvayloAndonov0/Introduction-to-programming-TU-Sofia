@@ -233,19 +233,3 @@ EXERCISES = {
     "14": exercise_14,
     "15": exercise_15,
 }
-
-
-def main():
-    print("Available exercises: 1-15")
-    exercise_number = input("Choose an exercise: ")
-    exercise = EXERCISES.get(exercise_number)
-
-    if exercise is None:
-        print("Invalid exercise number.")
-        return
-
-    exercise()
-
-
-if __name__ == "__main__":
-    main()
