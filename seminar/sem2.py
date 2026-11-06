@@ -138,7 +138,7 @@ def task_12():
     d1 = read_dict("First dictionary: ")
     d2 = read_dict("Second dictionary: ")
  
-    merged = dict(d1)                   # copy of the first one
+    merged = dict(d1)                  
     for product, quantity in d2.items():
         merged[product] = merged.get(product, 0) + quantity
     print("Merged dictionary:", merged)
