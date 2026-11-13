@@ -16,7 +16,8 @@ class Student(Person):
         self.year_of_study = year_of_study
 
     def introduce(self):
-        print(f'{self.name} is {self.nationality} studying at {self.university} in {self.year_of_study} year')
+        super().introduce()
+        print(f'Studying at {self.university} in {self.year_of_study} year')
 
 
 
